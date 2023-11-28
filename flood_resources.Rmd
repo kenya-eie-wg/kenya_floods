@@ -1,7 +1,16 @@
 ---
 title: "Kenya Flood Impact"
-output: html_document
 date: '2023-11-28'
+output:
+  html_document:
+    code_download: yes
+    theme: readable
+    toc: yes
+    toc_depth: 4
+    toc_float: yes
+    number_sections: no
+    collapsed: no
+always_allow_html: yes
 ---
 
 ```{css, echo=FALSE}
@@ -21,13 +30,13 @@ date: '2023-11-28'
 ```{=html}
 <style>
     body .main-container {
-        max-width: 1440px;
+        max-width: 1280px;
     }
 </style>
 ```
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, fig.width = 8)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, out.width = "1000px")
 
 library(tidyverse)
 library(readxl) 
@@ -218,7 +227,7 @@ ggsave("./img/flood_affected_people.png",
 
 <br>
 
-[Download link](https://github.com/kenya-eie-wg/kenya_floods/blob/main/img/flood_affected_people.png)
+[Download link](https://github.com/kenya-eie-wg/kenya_floods/blob/main/flood_affected_people.png)
 
 <br><br><br>
 
@@ -288,7 +297,7 @@ ggsave("./img/flood_displaced_people.png",
 
 <br>
 
-[Download link](https://github.com/kenya-eie-wg/kenya_floods/blob/main/img/flood_displaced_people.png)
+[Download link](https://github.com/kenya-eie-wg/kenya_floods/blob/main/flood_displaced_people.png)
 
 <br><br><br>
 
@@ -361,7 +370,7 @@ ggsave("./img/flood_percent_affected.png",
 
 <br>
 
-[Download link](https://github.com/kenya-eie-wg/kenya_floods/blob/main/img/flood_percent_affected.png) 
+[Download link](https://github.com/kenya-eie-wg/kenya_floods/blob/main/flood_percent_affected.png) 
 
 
 <br><br><br>
