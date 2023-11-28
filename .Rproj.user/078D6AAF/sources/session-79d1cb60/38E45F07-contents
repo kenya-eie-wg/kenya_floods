@@ -1,0 +1,352 @@
+---
+title: "Kenya Flood Impact"
+output: html_document
+date: '2023-11-28'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, fig.width = 10)
+
+library(tidyverse)
+library(readxl) 
+library(janitor)
+library(viridis)
+library(scales)
+library(ggrepel)
+library(flextable)
+library(sf)
+library(plotly)
+library(patchwork)
+library(ggsflabel)
+library(googlesheets4)
+
+options(scipen = 100)
+
+`%out%` <- Negate(`%in%`)
+
+# Fixing dates
+name_to_date <- function(x) {
+  lubridate::mdy(ifelse(x %in% c(month.name, month.abb), paste0(x, "/01/2023"), x))
+}
+```
+
+```{r data}
+adm2 <- read_csv("https://raw.githubusercontent.com/kenya-eie-wg/operation_come_to_school_public/main/data/adm2_reference.csv")
+
+adm1 <- adm2 %>% 
+  distinct(county, partner, adm1_pcode, fo) 
+
+adm2_targets <- read_csv("https://raw.githubusercontent.com/kenya-eie-wg/operation_come_to_school_public/main/data/adm2_targets.csv") 
+
+locations <- read_csv("./data/locations.csv")
+
+locations_match <- read_csv("./data/locations_match.csv")
+
+pcode1_shape <- 
+  sf::st_read("./data/ken_adm_iebc_20191031_shp/ken_admbnda_adm1_iebc_20191031.shp", 
+          quiet = TRUE) %>% 
+  clean_names()
+
+pcode2_shape <- 
+  sf::st_read("./data/ken_adm_iebc_20191031_shp/ken_admbnda_adm2_iebc_20191031.shp", 
+          quiet = TRUE) %>% 
+  clean_names() %>% 
+  st_as_sf() %>%
+  mutate(fo = case_when(adm1_en %in% c("Samburu", "Turkana", "West Pokot", "Baringo") ~ "Lodwar", 
+                        adm1_en %in% c("Garissa", "Isiolo", "Mandera", "Marsabit", "Tana River", "Wajir") ~ "Garissa", 
+                        adm1_en %in% c("Bungoma", "Narok") ~ "Kisumu", 
+                        adm1_en %in% c("Nairobi", "Kilifi", "Kwale", "Kajiado") ~ "Nairobi"))
+
+# Source: https://geodata.arin-africa.org/layers/my_geonode_data:geonode:kenya_all_towns
+all_towns_shape <- 
+  sf::st_read("./data/kenya_all_towns/kenya_all_towns_eeTVhKM.shp", 
+          quiet = TRUE) %>% 
+  clean_names() %>% 
+  st_as_sf() %>%
+  filter(town_type %in% c("City", "Municipality", "Township/Town", "Trading Centre"))
+
+# Source: https://data.humdata.org/m/dataset/kenya-water-courses?
+rivers <- 
+  sf::st_read("./data/KEN_Rivers/KEN_Rivers.shp", 
+          quiet = TRUE)
+
+kenya_roads <- sf::st_read("./data/kenya_roads_filtered/kenya_roads_filtered.shp", 
+                           quiet = TRUE)
+
+```
+
+## Datasets
+
+#### [OCHA Kenya Floods Dataset, live document](https://docs.google.com/spreadsheets/d/12BclJkUegDVWxx131EvnDCFHXw3ZGZFD/edit#gid=1495683341)
+Contains affected and displaced persons by displacement site. 
+
+
+```{r floods}
+
+floods <- read_excel("./data/Kenya El Nino Flood impacts & Response data - 20Nov2023.xlsx", 
+           sheet = 1, 
+           skip = 2) %>% 
+  clean_names() %>% 
+  left_join(locations_match %>% 
+              distinct(adm1_en, adm1_pcode), 
+            by = c("county" = "adm1_en")) %>% 
+  mutate(sub_county = case_when(sub_county == "Loiyangalani" ~ "Loyangalani", 
+                                sub_county == "Mutitu" ~ "Kitui East", 
+                                ward %in% c("Waberi", "Galbet", "Iftin") ~ "Garissa Township", 
+                                county == "Garissa" & ward == "Townhip" ~ "Garissa Township", 
+                                sub_county == "Garissa" ~ "Garissa Township",
+                                sub_county == "Liboi" ~ "Dadaab", 
+                                ward == "Sankuri" ~ "Balambala", 
+                                sub_county == "Mwingi Central" ~ "Mwingi North", 
+                                sub_county %in% c("Bothai", "Bura east") ~ "Ijara", 
+                                sub_county == "Kitui rural" ~ "Kitui Rural", 
+                                TRUE ~ sub_county)) %>% 
+  mutate(id = 
+           paste0(county, sub_county, ward, village_location_town, name_of_site, number_of_affected_households)) %>% 
+  left_join(
+    locations_match %>% 
+      select(adm1_pcode, 
+             adm2_en, 
+             adm2_pcode), 
+    by = c("adm1_pcode" = "adm1_pcode", 
+           "sub_county" = "adm2_en")
+  ) %>% 
+ mutate(total_no_of_affected_people = ifelse(is.na(total_no_of_affected_people) & 
+                                                  !is.na(total_no_of_displaced_people), 
+                                                total_no_of_displaced_people, 
+                                                total_no_of_affected_people), 
+         number_of_affected_households = ifelse(is.na(number_of_affected_households) & 
+                                                  !is.na(number_of_displaced_households), 
+                                                number_of_displaced_households, 
+                                                number_of_affected_households)) %>% 
+  filter(county != "Migori") 
+
+```
+
+
+
+## Maps
+
+<br>
+
+
+### Map of persons affected by flooding 
+Includes all affected persons, those displaced and those not. 
+
+
+```{r}
+floods %>% 
+  group_by(adm2_pcode) %>% 
+  summarise(affected_people = sum(total_no_of_affected_people, na.rm = TRUE), 
+            displaced_people = sum(total_no_of_displaced_people, na.rm = TRUE)) %>% 
+  filter(affected_people > 0) %>% 
+  left_join(locations %>% 
+              select(constituency = adm2_en, adm2_pcode), 
+            by = "adm2_pcode") %>% 
+  left_join(adm2_targets %>% 
+              select(adm2_pcode, children_0_17, population, average_household_size), 
+            by = "adm2_pcode") %>% 
+  mutate(pc_affected = affected_people / population) %>% 
+  right_join(pcode2_shape, 
+             by = "adm2_pcode") %>% 
+  mutate(show_text = ifelse(!is.na(constituency) & 
+                              !is.na(affected_people) & 
+                              affected_people > 0, 
+                            paste0(constituency, "\n", 
+                                        comma(affected_people)), 
+                            "")) %>% 
+  st_as_sf() %>% 
+  ggplot() + 
+  geom_sf(size = 0.001, 
+          aes(fill = affected_people)) + 
+  geom_sf(aes(geometry = geometry), 
+          data = kenya_roads, 
+          size = .01, alpha = .5, colour = "darkblue") + 
+  geom_point(aes(x = lon, y = lat), 
+               data = all_towns_shape %>% 
+                 st_as_sf() %>% 
+                 mutate(lon = sf::st_coordinates(.)[,1],
+                  lat = sf::st_coordinates(.)[,2]) %>% 
+                 st_intersection(., pcode2_shape %>% 
+                                   filter(adm1_en %in% c("Garissa", "Isiolo", "Kitui", 
+                                                         "Machakos", "Makueni", "Mandera", "Wajir"))) %>% 
+                 st_make_valid(), 
+               colour = "#f1605d", 
+             pch = 15, alpha = .7, size = 2) +
+  geom_sf_text_repel(aes(label = show_text),
+                     size = 2, 
+                     seed = 12) +
+  scale_fill_viridis(option = "magma", 
+                     direction = -1, 
+                     labels = comma, 
+                     begin = .2) +
+  theme_void() + 
+  labs(fill = "Affected\npeople", 
+       title = "Flood-affected persons, 28 November 2023", 
+       subtitle = "Data from: OCHA Kenya Flood Response Status\nTowns/cities/trading centres in red; network of major roads in blue") + 
+  theme(plot.background = element_rect(fill = "white", 
+                                       colour = "white"))
+
+ggsave("./img/flood_affected_people.png", 
+         height = 297, 
+         width = 400, 
+         units = c("mm"))
+  
+```
+
+<br><br><br>
+
+
+### Map of persons displaced by flooding
+Only depicts displaced persons. 
+
+```{r}
+floods %>% 
+  group_by(adm2_pcode) %>% 
+  summarise(affected_people = sum(total_no_of_affected_people, na.rm = TRUE), 
+            displaced_people = sum(total_no_of_displaced_people, na.rm = TRUE)) %>% 
+  filter(displaced_people > 0) %>% 
+  left_join(locations %>% 
+              select(constituency = adm2_en, adm2_pcode), 
+            by = "adm2_pcode") %>% 
+  left_join(adm2_targets %>% 
+              select(adm2_pcode, children_0_17, population, average_household_size), 
+            by = "adm2_pcode") %>%
+  right_join(pcode2_shape, 
+             by = "adm2_pcode") %>% 
+  mutate(show_text = ifelse(!is.na(constituency) & 
+                              !is.na(displaced_people) & 
+                              displaced_people > 0, 
+                            paste0(constituency, "\n", 
+                                        comma(displaced_people)), 
+                            "")) %>% 
+  st_as_sf() %>% 
+  ggplot() +
+  geom_sf(size = 0.001, 
+          aes(fill = displaced_people), 
+          alpha = .9) + 
+  geom_sf(aes(geometry = geometry), 
+          data = kenya_roads, 
+          size = .01, alpha = .5, colour = "darkblue") + 
+  geom_point(aes(x = lon, y = lat), 
+               data = all_towns_shape %>% 
+                 st_as_sf() %>% 
+                 mutate(lon = sf::st_coordinates(.)[,1],
+                  lat = sf::st_coordinates(.)[,2]) %>% 
+                 st_intersection(., pcode2_shape %>% 
+                                   filter(adm1_en %in% c("Garissa", "Isiolo", "Kitui", 
+                                                         "Machakos", "Makueni", "Mandera", "Wajir"))) %>% 
+                 st_make_valid(), 
+               colour = "#f1605d", 
+             pch = 15, alpha = .7, size = 2) +
+  geom_sf_text_repel(aes(label = show_text),
+                     size = 2, 
+                     seed = 12) +
+  scale_fill_viridis(option = "magma", 
+                     direction = -1, 
+                     labels = comma, 
+                     begin = .2) +
+  theme_void() + 
+  
+  labs(fill = "Displaced\npeople", 
+       title = "Flood-displaced persons, 28 November 2023", 
+       subtitle = "Data from: OCHA Kenya Flood Response Status\nTowns/cities/trading centres in red") + 
+  theme(plot.background = element_rect(fill = "white", 
+                                       colour = "white"))
+
+ggsave("./img/flood_displaced_people.png", 
+         height = 297, 
+         width = 400, 
+         units = c("mm"))
+```
+
+<br><br><br>
+
+### Map of severity of flooding 
+
+```{r}
+
+# Make map of severity
+
+floods %>% 
+  group_by(adm2_pcode) %>% 
+  summarise(affected_people = sum(total_no_of_affected_people, na.rm = TRUE), 
+            displaced_people = sum(total_no_of_displaced_people, na.rm = TRUE)) %>% 
+  left_join(adm2_targets %>% 
+              select(adm2_pcode, population), 
+            by = "adm2_pcode") %>% 
+  filter(affected_people > 0) %>% 
+  left_join(locations %>% 
+              select(constituency = adm2_en, adm2_pcode), 
+            by = "adm2_pcode") %>% 
+  mutate(pc_affected = affected_people / population) %>%
+  right_join(pcode2_shape, 
+             by = "adm2_pcode") %>% 
+  mutate(show_text = ifelse(!is.na(constituency) & 
+                              !is.na(pc_affected) & 
+                              pc_affected > 0.001, 
+                            paste0(constituency, "\n", 
+                                        percent(pc_affected, 
+                                                accuracy = 0.1L)), 
+                            "")) %>% 
+  st_as_sf() %>% 
+  ggplot() +
+  geom_sf(size = 0.001, 
+          aes(fill = pc_affected), 
+          alpha = .9) + 
+  geom_sf(aes(geometry = geometry), 
+          data = kenya_roads, 
+          size = .01, alpha = .5, colour = "darkblue") + 
+  geom_point(aes(x = lon, y = lat), 
+               data = all_towns_shape %>% 
+                 st_as_sf() %>% 
+                 mutate(lon = sf::st_coordinates(.)[,1],
+                  lat = sf::st_coordinates(.)[,2]) %>% 
+                 st_intersection(., pcode2_shape %>% 
+                                   filter(adm1_en %in% c("Garissa", "Isiolo", "Kitui", 
+                                                         "Machakos", "Makueni", "Mandera", "Wajir"))) %>% 
+                 st_make_valid(), 
+               colour = "#f1605d", 
+             pch = 15, alpha = .7, size = 2) +
+  geom_sf_text_repel(aes(label = show_text),
+                     size = 2, 
+                     seed = 12) +
+  scale_fill_viridis(option = "magma", 
+                     direction = -1, 
+                     labels = percent, 
+                     begin = .2) +
+  theme_void() + 
+  
+  labs(fill = "Percent\naffected", 
+       title = "Percent of population affected by flood, 28 November 2023", 
+       subtitle = "Data from: OCHA Kenya Flood Response Status and Census\nTowns/cities/trading centres in red") + 
+  theme(plot.background = element_rect(fill = "white", 
+                                       colour = "white"))
+
+ggsave("./img/flood_percent_affected.png", 
+         height = 297, 
+         width = 400, 
+         units = c("mm"))
+```
+
+
+### Other Maps
+
+<br><br><br>
+
+
+#### [WHO Map of flood risk](https://www.humanitarianlibrary.org/sites/default/files/2013/08/ken-flood.pdf)
+
+
+```{r}
+pcode2_shape %>% 
+  filter(adm1_en == "Wajir") %>% 
+  ggplot() + 
+  geom_sf(size = .001) + 
+  geom_sf_text(aes(label = paste0(adm2_en, "\n", 
+                                  adm2_pcode)))
+```
+
+## Government flash flood alerts
+
+https://meteo.go.ke/index.php/node/838
