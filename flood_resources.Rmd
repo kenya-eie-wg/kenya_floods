@@ -4,6 +4,28 @@ output: html_document
 date: '2023-11-28'
 ---
 
+```{css, echo=FALSE}
+
+#TOC::before {
+  content: "";
+  display: block;
+  height: 50px;
+  margin: 2em 20px 40px 20px;
+  background-image: url("https://raw.githubusercontent.com/kenya-eie-wg/eie_wg_5ws/main/eie_wg_logo.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+```
+
+```{=html}
+<style>
+    body .main-container {
+        max-width: 1440px;
+    }
+</style>
+```
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, fig.width = 8)
 
@@ -70,7 +92,8 @@ rivers <-
   sf::st_read("./data/KEN_Rivers/KEN_Rivers.shp", 
           quiet = TRUE)
 
-kenya_roads <- sf::st_read("./data/kenya_roads_filtered/kenya_roads_filtered.shp")
+kenya_roads <- sf::st_read("./data/kenya_roads_filtered/kenya_roads_filtered.shp", 
+                           quiet = TRUE)
 
 ```
 
@@ -193,6 +216,10 @@ ggsave("./img/flood_affected_people.png",
   
 ```
 
+<br>
+
+[Download link](https://github.com/kenya-eie-wg/kenya_floods/blob/main/img/flood_affected_people.png)
+
 <br><br><br>
 
 
@@ -258,6 +285,10 @@ ggsave("./img/flood_displaced_people.png",
          width = 400, 
          units = c("mm"))
 ```
+
+<br>
+
+[Download link](https://github.com/kenya-eie-wg/kenya_floods/blob/main/img/flood_displaced_people.png)
 
 <br><br><br>
 
@@ -328,24 +359,22 @@ ggsave("./img/flood_percent_affected.png",
          units = c("mm"))
 ```
 
+<br>
 
-### Other Maps
+[Download link](https://github.com/kenya-eie-wg/kenya_floods/blob/main/img/flood_percent_affected.png) 
+
 
 <br><br><br>
+
+### Other Maps
 
 
 #### [WHO Map of flood risk](https://www.humanitarianlibrary.org/sites/default/files/2013/08/ken-flood.pdf)
 
-
-```{r}
-pcode2_shape %>% 
-  filter(adm1_en == "Wajir") %>% 
-  ggplot() + 
-  geom_sf(size = .001) + 
-  geom_sf_text(aes(label = paste0(adm2_en, "\n", 
-                                  adm2_pcode)))
-```
+<br><br><br>
 
 ## Government flash flood alerts
 
 https://meteo.go.ke/index.php/node/838
+
+<br><br><br>
