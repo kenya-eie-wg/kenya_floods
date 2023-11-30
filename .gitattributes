@@ -5,3 +5,4 @@
 *.css linguist-detectable=false
 *.scss linguist-detectable=false
 *.tex linguist-detectable=false
+*.scheme linguist-detectable=false

@@ -165,7 +165,7 @@ floods <- read_excel("./data/Kenya El Nino Flood impacts & Response data - 20Nov
 Includes all affected persons, those displaced and those not. 
 
 
-```{r}
+```{r fig.height=7}
 floods %>% 
   group_by(adm2_pcode) %>% 
   summarise(affected_people = sum(total_no_of_affected_people, na.rm = TRUE), 
@@ -235,7 +235,7 @@ ggsave("./img/flood_affected_people.png",
 ### Map of persons displaced by flooding
 Only depicts displaced persons. 
 
-```{r}
+```{r fig.height=7}
 floods %>% 
   group_by(adm2_pcode) %>% 
   summarise(affected_people = sum(total_no_of_affected_people, na.rm = TRUE), 
@@ -303,7 +303,7 @@ ggsave("./img/flood_displaced_people.png",
 
 ### Map of severity of flooding 
 
-```{r}
+```{r fig.height=7}
 
 # Make map of severity
 
