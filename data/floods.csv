@@ -1,0 +1,323 @@
+s_no,county,sub_county,ward,village_location_town,name_of_site,type_of_site,humanitarian_coordination_hub,number_of_affected_households,total_no_of_affected_people,number_of_displaced_households,total_no_of_displaced_people,men,women,children,elderly,pregnant_lactating_women,person_with_disabilities,source_of_information,accessibility,infrastructure_damage_roads_bridges_schools_health_facilities_etc,comments_remarks,assessement_done_yes_no,assesment_lead_organization,priority_needs,assessment_date,no_of_people_in_need,no_of_people_reached_assisted,type_of_interventions,organization,sector,response_date,contacts_email_mobile,adm1_pcode,id,adm2_pcode
+NA,Garissa,Garissa Township,Galbet,NA,Hyuga Primary school,School,Vihiga,414.0,1810,414.0,1810,445,442,859,64.0,64.0,5.0,KRCS,Accessible,NA,All the class room in the school have been occupied. Only the office of the head teacher and the Laboratory is left.,Yes,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipGalbetNAHyuga Primary schoolNA,KE007027
+NA,Garissa,Garissa Township,Galbet,NA,Nep Technical,School,Garissa,512.0,2359,512.0,2359,631,595,1048,85.0,68.0,3.0,KRCS,Accessible,NA,"There are two villages camping in this facility, Bulla Kamor   A&B  and 	Bulla Vumbi",Yes,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipGalbetNANep TechnicalNA,KE007027
+NA,Garissa,Garissa Township,Iftin,NA,Water Ground,NA,Garissa,382.0,1737,382.0,1737,417,411,852,57.0,42.0,2.0,KRCS,Accessible,NA,NA,Yes,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipIftinNAWater GroundNA,KE007027
+NA,Garissa,Garissa Township,Galbet,NA,Jaribu Primary School,School,Garissa,193.0,415,193.0,415,108,114,152,41.0,29.0,2.0,KRCS,Accessible,NA,NA,Yes,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipGalbetNAJaribu Primary SchoolNA,KE007027
+NA,Garissa,Garissa Township,Township,NA,FTC Camp,camp,Garissa,107.0,356,107.0,356,73,74,170,39.0,21.0,0.0,KRCS,Accessible,NA,NA,Yes,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipTownshipNAFTC CampNA,KE007027
+NA,Garissa,Garissa Township,Liboi,NA,Liboi Camp,camp,Garissa,150.0,549,150.0,549,145,90,268,46.0,30.0,0.0,KRCS,Accessible,NA,NA,Yes,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipLiboiNALiboi CampNA,KE007027
+NA,Garissa,Garissa Township,Galbet,NA,Kazuko Primary school,School,Garissa,130.0,533,130.0,533,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,"They have occupied all the classes, 4hhs in each class.; The camps chairman is Yussuf Ahmed of tel. no: 0721547298; 8 toilets open for the IDPs.",NO,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipGalbetNAKazuko Primary schoolNA,KE007027
+NA,Garissa,Garissa Township,Galbet,NA,Tumaini,NA,Garissa,160.0,656,160.0,656,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NO,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipGalbetNATumainiNA,KE007027
+NA,Garissa,Garissa Township,Township,NA,Industrial park,NA,Garissa,320.0,1312,320.0,1312,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipTownshipNAIndustrial parkNA,KE007027
+NA,Garissa,Garissa Township,Iftin,NA,Young Muslim,NA,Garissa,150.0,615,150.0,615,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipIftinNAYoung MuslimNA,KE007027
+NA,Garissa,Garissa Township,Iftin,NA,Province (Water Field),NA,Garissa,382.0,1566.2,382.0,1566.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipIftinNAProvince (Water Field)NA,KE007027
+NA,Garissa,Garissa Township,Iftin,NA,Farmers Training Centre (FTC),NA,Garissa,451.0,1849.1,451.0,1849.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipIftinNAFarmers Training Centre (FTC)NA,KE007027
+NA,Garissa,Garissa Township,Waberi,NA,Bula Nyuki,NA,Garissa,300.0,1230,300.0,1230,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipWaberiNABula NyukiNA,KE007027
+NA,Garissa,Garissa Township,Waberi,NA,Bula Mzuri,NA,Garissa,50.0,205,50.0,205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipWaberiNABula MzuriNA,KE007027
+NA,Garissa,Garissa Township,Sankuri,Sankuri Town,NA,NA,Garissa,762.0,3124.2,762.0,3124.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipSankuriSankuri TownNANA,KE007027
+NA,Garissa,Garissa Township,Sankuri,Raya Town,NA,NA,Garissa,370.0,1517,370.0,1517,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipSankuriRaya TownNANA,KE007027
+NA,Garissa,Garissa Township,Sankuri,Shimbirey village,NA,NA,Garissa,38.0,155.8,38.0,155.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipSankuriShimbirey villageNANA,KE007027
+NA,Garissa,Garissa Township,Sankuri,Abdisamad,NA,NA,Garissa,140.0,574,140.0,574,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipSankuriAbdisamadNANA,KE007027
+NA,Garissa,Hulugho,NA,NA,NA,NA,Garissa,1920,11520,180.0,1080,NA,NA,NA,NA,NA,NA,NA,Totally cut off from the rest of the county,NA,12 villages affected,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaHulughoNANANA1920,KE007031
+NA,Garissa,Fafi,NA,NA,NA,NA,Garissa,850,5100,160.0,960,NA,NA,NA,NA,NA,NA,NA,Completely cut off,NA,8 villages affected,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaFafiNANANA850,KE007031
+NA,Garissa,Ijara,NA,NA,NA,NA,Garissa,1969,11814,430.0,2580,NA,NA,NA,NA,NA,NA,NA,Completely cut off,NA,14 villages affected,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaIjaraNANANA1969,KE007032
+NA,Garissa,Balambala,NA,NA,NA,NA,Garissa,2500,15000,310.0,1860,NA,NA,NA,NA,NA,NA,NA,Completely cut off.,NA,13 villages affected,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaBalambalaNANANA2500,KE007028
+NA,Garissa,Lagdera,NA,NA,NA,NA,Garissa,2162,12972,866.0,5196,NA,NA,NA,NA,NA,NA,NA,Completely cut off,NA,16 villages affected,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaLagderaNANANA2162,KE007029
+NA,Garissa,Garissa Township,NA,NA,NA,NA,Garissa,5156,30936,4372.0,26232,NA,NA,NA,NA,NA,NA,NA,Most affected sub county,NA,9 villages affected,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaGarissa TownshipNANANA5156,KE007027
+NA,Garissa,Ijara,NA,NA,NA,NA,Garissa,600,3600,120.0,720,NA,NA,NA,NA,NA,NA,NA,Completely cut off,NA,4 villages affected,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaIjaraNANANA600,KE007032
+NA,Garissa,Dadaab,NA,NA,NA,NA,Garissa,1841,11046,410.0,2460,NA,NA,NA,NA,NA,NA,NA,Completely cut off,NA,9 villages affected,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaDadaabNANANA1841,KE007030
+NA,Garissa,Dadaab,NA,NA,NA,NA,Garissa,680,4080,150.0,900,NA,NA,NA,NA,NA,NA,NA,Completely cut off,NA,4 villages affected,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaDadaabNANANA680,KE007030
+NA,Garissa,Ijara,NA,NA,NA,NA,Garissa,1540,9240,280.0,1680,NA,NA,NA,NA,NA,NA,NA,Completely cut off,NA,8 villages affected,NA,KRCS,NA,2023-11-13,NA,NA,NA,NA,NA,NA,NA,KE007,GarissaIjaraNANANA1540,KE007032
+NA,Mandera,Mandera East,Khalalio,Dariqa,NA,NA,Garissa,75,450,55.0,330,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera EastKhalalioDariqaNA75,KE009043
+NA,Mandera,Mandera East,Khalalio,Khalalio,NA,NA,Garissa,30,180,15.0,90,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera EastKhalalioKhalalioNA30,KE009043
+NA,Mandera,Mandera East,Neboi,Boys town,NA,NA,Garissa,120,720,75.0,450,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera EastNeboiBoys townNA120,KE009043
+NA,Mandera,Mandera East,Neboi,Bulla Hidaya,NA,NA,Garissa,131,786,85.0,510,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera EastNeboiBulla HidayaNA131,KE009043
+NA,Mandera,Mandera East,Township,Bp- 1,NA,NA,Garissa,73,438,43.0,258,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera EastTownshipBp- 1NA73,KE009043
+NA,Mandera,Mandera East,Neboi,Bulla Nguvu,NA,NA,Garissa,70,420,47.0,282,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera EastNeboiBulla NguvuNA70,KE009043
+NA,Mandera,Mandera East,Neboi,Handadu,NA,NA,Garissa,250,1500,120.0,720,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera EastNeboiHandaduNA250,KE009043
+NA,Mandera,Mandera East,Township,Barwako,NA,NA,Garissa,130,780,77.0,462,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera EastTownshipBarwakoNA130,KE009043
+NA,Mandera,Mandera East,Township,Koromey,NA,NA,Garissa,60,360,42.0,252,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera EastTownshipKoromeyNA60,KE009043
+NA,Mandera,Mandera East,Libihiya,Libihiya,NA,NA,Garissa,112,672,55.0,330,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera EastLibihiyaLibihiyaNA112,KE009043
+NA,Mandera,Mandera North,Rhamu,Bulla Hargeysa,NA,NA,Garissa,105,630,55.0,330,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera NorthRhamuBulla HargeysaNA105,KE009041
+NA,Mandera,Mandera North,Rhamu,Alfurqan,NA,NA,Garissa,97,582,52.0,312,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera NorthRhamuAlfurqanNA97,KE009041
+NA,Mandera,Mandera North,Rhamu,Bulla Barwako,NA,NA,Garissa,33,198,47.0,282,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera NorthRhamuBulla BarwakoNA33,KE009041
+NA,Mandera,Mandera North,Rhamu,Dagahley,NA,NA,Garissa,90,540,50.0,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera NorthRhamuDagahleyNA90,KE009041
+NA,Mandera,Mandera North,Rhamu,Qodii,NA,NA,Garissa,96,576,46.0,276,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera NorthRhamuQodiiNA96,KE009041
+NA,Mandera,Mandera North,Rhamu,Dariqa,NA,NA,Garissa,103,618,69.0,414,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera NorthRhamuDariqaNA103,KE009041
+NA,Mandera,Mandera South,Elwak South,Elwak Town,NA,NA,Garissa,344,2064,212.0,1272,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera SouthElwak SouthElwak TownNA344,KE009042
+NA,Mandera,Mandera South,Elwak North,Aluteibi,NA,NA,Garissa,229,1374,127.0,762,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera SouthElwak NorthAluteibiNA229,KE009042
+NA,Mandera,Mandera South,Elwak North,Bulla Dana,NA,NA,Garissa,113,678,71.0,426,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera SouthElwak NorthBulla DanaNA113,KE009042
+NA,Mandera,Mandera South,Shimbir Fatuma,Shimbir,NA,NA,Garissa,265,1590,170.0,1020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera SouthShimbir FatumaShimbirNA265,KE009042
+NA,Mandera,Mandera South,Shimbir Fatuma,Fincharo,NA,NA,Garissa,137,822,77.0,462,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaMandera SouthShimbir FatumaFincharoNA137,KE009042
+NA,Mandera,Lafey,Lafey,Damasa,NA,NA,Garissa,155,930,85.0,510,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaLafeyLafeyDamasaNA155,KE009044
+NA,Mandera,Lafey,Fino,Fino,NA,NA,Garissa,104,624,37.0,222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaLafeyFinoFinoNA104,KE009044
+NA,Mandera,Lafey,Alungu,Alungu,NA,NA,Garissa,79,474,47.0,282,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaLafeyAlunguAlunguNA79,KE009044
+NA,Mandera,Lafey,Lafey,Lafey,NA,NA,Garissa,112,672,62.0,372,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE009,ManderaLafeyLafeyLafeyNA112,KE009044
+NA,Wajir,Wajir North,NA,Buna,NA,NA,Garissa,600,3600,600.0,3600,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir NorthNABunaNA600,KE008033
+NA,Wajir,Wajir North,NA,Beramo,NA,NA,Garissa,70,420,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir NorthNABeramoNA70,KE008033
+NA,Wajir,Wajir North,NA,Elboru idho,NA,NA,Garissa,50,300,30.0,180,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir NorthNAElboru idhoNA50,KE008033
+NA,Wajir,Wajir North,NA,Surayo,NA,NA,Garissa,40,240,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir NorthNASurayoNA40,KE008033
+NA,Wajir,Wajir North,NA,Jarte North,NA,NA,Garissa,40,240,40.0,240,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir NorthNAJarte NorthNA40,KE008033
+NA,Wajir,Wajir North,NA,Jarte West,NA,NA,Garissa,40,240,40.0,240,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir NorthNAJarte WestNA40,KE008033
+NA,Wajir,Wajir North,NA,Bute,NA,NA,Garissa,300,1800,100.0,600,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir NorthNAButeNA300,KE008033
+NA,Wajir,Wajir North,NA,Ogorji,NA,NA,Garissa,50,300,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir NorthNAOgorjiNA50,KE008033
+NA,Wajir,Wajir North,NA,Watiti,NA,NA,Garissa,250,1500,200.0,1200,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir NorthNAWatitiNA250,KE008033
+NA,Wajir,Wajir North,NA,Medina,NA,NA,Garissa,30,180,30.0,180,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir NorthNAMedinaNA30,KE008033
+NA,Wajir,Wajir North,NA,Fargadud,NA,NA,Garissa,40,240,40.0,240,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir NorthNAFargadudNA40,KE008033
+NA,Wajir,Wajir North,NA,Duhuma,NA,NA,Garissa,40,240,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir NorthNADuhumaNA40,KE008033
+NA,Wajir,Eldas,NA,Tito,NA,NA,Garissa,80,480,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirEldasNATitoNA80,KE008037
+NA,Wajir,Eldas,NA,Lakole,NA,NA,Garissa,100,600,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirEldasNALakoleNA100,KE008037
+NA,Wajir,Eldas,NA,Basir,NA,NA,Garissa,120,720,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirEldasNABasirNA120,KE008037
+NA,Wajir,Eldas,NA,Eldas,NA,NA,Garissa,400,2400,300.0,1800,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirEldasNAEldasNA400,KE008037
+NA,Wajir,Eldas,NA,Dela,NA,NA,Garissa,100,600,100.0,600,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirEldasNADelaNA100,KE008037
+NA,Wajir,Eldas,NA,Masalale,NA,NA,Garissa,100,600,50.0,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirEldasNAMasalaleNA100,KE008037
+NA,Wajir,Eldas,NA,Beletwein,NA,NA,Garissa,50,300,50.0,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirEldasNABeletweinNA50,KE008037
+NA,Wajir,Wajir South,Diff,Diff,NA,NA,Garissa,720,4320,600.0,3600,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir SouthDiffDiffNA720,KE008038
+NA,Wajir,Wajir South,NA,Sarif,NA,NA,Garissa,500,3000,200.0,1200,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir SouthNASarifNA500,KE008038
+NA,Wajir,Wajir South,NA,Dadajibula,NA,NA,Garissa,500,3000,400.0,2400,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir SouthNADadajibulaNA500,KE008038
+NA,Wajir,Wajir South,NA,Burder,NA,NA,Garissa,500,3000,250.0,1500,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir SouthNABurderNA500,KE008038
+NA,Wajir,Wajir South,NA,Abaqdere,NA,NA,Garissa,50,300,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir SouthNAAbaqdereNA50,KE008038
+NA,Wajir,Wajir South,NA,Muqdere,NA,NA,Garissa,70,420,50.0,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir SouthNAMuqdereNA70,KE008038
+NA,Wajir,Wajir South,NA,Hambalash,NA,NA,Garissa,60,360,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir SouthNAHambalashNA60,KE008038
+NA,Wajir,Wajir South,NA,Ibrahim Ure,NA,NA,Garissa,100,600,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir SouthNAIbrahim UreNA100,KE008038
+NA,Wajir,Tarbaj,NA,Wargadud,NA,NA,Garissa,70,420,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirTarbajNAWargadudNA70,KE008035
+NA,Wajir,Tarbaj,NA,Burmayo,NA,NA,Garissa,80,480,40.0,240,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirTarbajNABurmayoNA80,KE008035
+NA,Wajir,Tarbaj,NA,Gunana,NA,NA,Garissa,100,600,100.0,600,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirTarbajNAGunanaNA100,KE008035
+NA,Wajir,Tarbaj,NA,Kotulo,NA,NA,Garissa,100,600,50.0,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirTarbajNAKotuloNA100,KE008035
+NA,Wajir,Tarbaj,Tarbaj,Lafaley,NA,NA,Garissa,90,540,50.0,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirTarbajTarbajLafaleyNA90,KE008035
+NA,Wajir,Tarbaj,NA,Kajaja I,NA,NA,Garissa,45,270,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirTarbajNAKajaja INA45,KE008035
+NA,Wajir,Tarbaj,NA,Kajaja II,NA,NA,Garissa,45,270,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirTarbajNAKajaja IINA45,KE008035
+NA,Wajir,Tarbaj,NA,Dasheq,NA,NA,Garissa,70,420,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirTarbajNADasheqNA70,KE008035
+NA,Wajir,Wajir East,NA,Handaki East,NA,NA,Garissa,60,360,40.0,240,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir EastNAHandaki EastNA60,KE008034
+NA,Wajir,Wajir East,NA,Korofharar,NA,NA,Garissa,150,900,20.0,120,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir EastNAKorofhararNA150,KE008034
+NA,Wajir,Wajir East,NA,Boji Garas,NA,NA,Garissa,40,240,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir EastNABoji GarasNA40,KE008034
+NA,Wajir,Wajir East,NA,Gumarey,NA,NA,Garissa,20,120,20.0,120,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir EastNAGumareyNA20,KE008034
+NA,Wajir,Wajir East,NA,Konton,NA,NA,Garissa,60,360,40.0,240,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir EastNAKontonNA60,KE008034
+NA,Wajir,Wajir East,Township,Wajir Municapality,NA,NA,Garissa,270,1620,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir EastTownshipWajir MunicapalityNA270,KE008034
+NA,Wajir,Wajir West,NA,Griftu Township,NA,NA,Garissa,200,1200,200.0,1200,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir WestNAGriftu TownshipNA200,KE008036
+NA,Wajir,Wajir West,NA,Shantaabaq,NA,NA,Garissa,80,480,50.0,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir WestNAShantaabaqNA80,KE008036
+NA,Wajir,Wajir West,NA,Adhibohol,NA,NA,Garissa,80,480,40.0,240,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir WestNAAdhiboholNA80,KE008036
+NA,Wajir,Wajir West,NA,Arbajahan,NA,NA,Garissa,200,1200,200.0,1200,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir WestNAArbajahanNA200,KE008036
+NA,Wajir,Wajir West,NA,Jira,NA,NA,Garissa,40,240,40.0,240,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir WestNAJiraNA40,KE008036
+NA,Wajir,Wajir West,NA,Elkali,NA,NA,Garissa,40,240,40.0,240,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir WestNAElkaliNA40,KE008036
+NA,Wajir,Wajir West,NA,Baji,NA,NA,Garissa,50,300,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir WestNABajiNA50,KE008036
+NA,Wajir,Wajir West,NA,Adanawale,NA,NA,Garissa,70,420,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir WestNAAdanawaleNA70,KE008036
+NA,Wajir,Wajir West,NA,Welgaras,NA,NA,Garissa,30,180,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir WestNAWelgarasNA30,KE008036
+NA,Wajir,Wajir West,NA,Qara,NA,NA,Garissa,50,300,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir WestNAQaraNA50,KE008036
+NA,Wajir,Wajir West,NA,Showli,NA,NA,Garissa,40,240,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir WestNAShowliNA40,KE008036
+NA,Wajir,Wajir West,NA,Qarsekoftu,NA,NA,Garissa,100,600,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir WestNAQarsekoftuNA100,KE008036
+NA,Wajir,Wajir West,NA,Matho,NA,NA,Garissa,50,300,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir WestNAMathoNA50,KE008036
+NA,Wajir,Wajir West,NA,Shandarua,NA,NA,Garissa,40,240,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KRCS,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE008,WajirWajir WestNAShandaruaNA40,KE008036
+NA,Machakos,Mwala,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE016,MachakosMwalaNANANA0,KE016082
+NA,Kitui,Mwingi North,Kivou,Karung'a,Karung'a,village,Kitui,15,74,15.0,74,28,17,29,0.0,0.0,0.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE015,KituiMwingi NorthKivouKarung'aKarung'a15,KE015067
+NA,Kitui,Kitui Central,Miambani,Miambani,Miambani,village,Kitui,7,43,7.0,0,NA,NA,NA,0.0,0.0,0.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE015,KituiKitui CentralMiambaniMiambaniMiambani7,KE015072
+NA,Kitui,Kitui Rural,NA,NA,NA,NA,Kitui,0,0,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE015,KituiKitui RuralNANANA0,KE015071
+NA,Kitui,Kitui East,Mutitu/Kaliku,Mutitu,NA,NA,Kitui,6,26,0.0,26,16,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE015,KituiKitui EastMutitu/KalikuMutituNA6,KE015073
+NA,Kitui,Kitui East,Mutitu/Kaliku,Kaliku,NA,NA,Kitui,1,1,0.0,0,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE015,KituiKitui EastMutitu/KalikuKalikuNA1,KE015073
+NA,Makueni,Kibwezi,Twaandu,Ngaakaa,NA,NA,Makueni,7,16,0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,2 school latrines fallen,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE017,MakueniKibweziTwaanduNgaakaaNA7,KE017088
+NA,Marsabit,North Horr,North Horr,El Isacko Malla,NA,NA,Marsabit,40,280,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitNorth HorrNorth HorrEl Isacko MallaNA40,KE010046
+NA,Marsabit,North Horr,North Horr,El Boru Magado,NA,NA,Marsabit,76,532,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitNorth HorrNorth HorrEl Boru MagadoNA76,KE010046
+NA,Marsabit,Sololo,Waye Godha,NA,NA,NA,Marsabit,20,140,15.0,103,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitSololoWaye GodhaNANA20,KE010045
+NA,Marsabit,Sololo,Ramole,NA,NA,NA,Marsabit,27,189,22.0,121,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitSololoRamoleNANA27,KE010045
+NA,Marsabit,Sololo,Ramata,NA,NA,NA,Marsabit,30,210,23.0,131,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitSololoRamataNANA30,KE010045
+NA,Marsabit,Sololo,Anona,NA,NA,NA,Marsabit,23,161,23.0,119,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitSololoAnonaNANA23,KE010045
+NA,Marsabit,Sololo,Dambala Fachana,NA,NA,NA,Marsabit,19,133,16.0,98,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitSololoDambala FachanaNANA19,KE010045
+NA,Marsabit,Sololo,Ambalo,NA,NA,NA,Marsabit,83,581,57.0,309,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitSololoAmbaloNANA83,KE010045
+NA,Marsabit,Sololo,Badan Rero,NA,NA,NA,Marsabit,118,826,85.0,713,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitSololoBadan ReroNANA118,KE010045
+NA,Marsabit,Loyangalani,Loiyangalani,Civicon,NA,NA,Marsabit,100,700,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitLoyangalaniLoiyangalaniCiviconNA100,KE010048
+NA,Marsabit,Loyangalani,Loiyangalani,Olturot,NA,NA,Marsabit,21,147,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitLoyangalaniLoiyangalaniOlturotNA21,KE010048
+NA,Marsabit,Loyangalani,Loiyangalani,Arapal,NA,NA,Marsabit,19,133,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitLoyangalaniLoiyangalaniArapalNA19,KE010048
+NA,Marsabit,Loyangalani,Loiyangalani,Moite,NA,NA,Marsabit,16,112,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitLoyangalaniLoiyangalaniMoiteNA16,KE010048
+NA,Marsabit,Loyangalani,Kargi South Horr,Arge,NA,NA,Marsabit,27,189,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitLoyangalaniKargi South HorrArgeNA27,KE010048
+NA,Marsabit,Loyangalani,Kargi South Horr,South Horr,NA,NA,Marsabit,29,203,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitLoyangalaniKargi South HorrSouth HorrNA29,KE010048
+NA,Marsabit,Loyangalani,Kargi South Horr,Kurungu,NA,NA,Marsabit,34,238,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitLoyangalaniKargi South HorrKurunguNA34,KE010048
+NA,Marsabit,Loyangalani,Loiyangalani,Elmolo,NA,NA,Marsabit,9,63,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitLoyangalaniLoiyangalaniElmoloNA9,KE010048
+NA,Marsabit,Loyangalani,Loiyangalani,Gas,NA,NA,Marsabit,16,112,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitLoyangalaniLoiyangalaniGasNA16,KE010048
+NA,Marsabit,Loyangalani,Loiyangalani,Gatab,NA,NA,Marsabit,109,763,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitLoyangalaniLoiyangalaniGatabNA109,KE010048
+NA,Marsabit,Moyale,Golbo,Odda,NA,NA,Marsabit,53,371,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboOddaNA53,KE010045
+NA,Marsabit,Moyale,Golbo,Yabalo,NA,NA,Marsabit,67,469,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboYabaloNA67,KE010045
+NA,Marsabit,Moyale,Golbo,Garse,NA,NA,Marsabit,38,266,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboGarseNA38,KE010045
+NA,Marsabit,Moyale,Golbo,Qonqom,NA,NA,Marsabit,54,378,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboQonqomNA54,KE010045
+NA,Marsabit,Moyale,Golbo,Nana,NA,NA,Marsabit,300,2100,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboNanaNA300,KE010045
+NA,Marsabit,Moyale,Golbo,Godoma Didiko,NA,NA,Marsabit,109,763,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboGodoma DidikoNA109,KE010045
+NA,Marsabit,Moyale,Golbo,Godoma Gurgudo,NA,NA,Marsabit,241,1687,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboGodoma GurgudoNA241,KE010045
+NA,Marsabit,Moyale,Golbo,Watiti,NA,NA,Marsabit,73,511,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboWatitiNA73,KE010045
+NA,Marsabit,Moyale,Golbo,Gola,NA,NA,Marsabit,27,189,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboGolaNA27,KE010045
+NA,Marsabit,Moyale,Golbo,Guyo Timo,NA,NA,Marsabit,18,126,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboGuyo TimoNA18,KE010045
+NA,Marsabit,Moyale,Golbo,Dabel,NA,NA,Marsabit,421,2947,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboDabelNA421,KE010045
+NA,Marsabit,Moyale,Golbo,Dirdima,NA,NA,Marsabit,24,168,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboDirdimaNA24,KE010045
+NA,Marsabit,Moyale,Golbo,Iladu,NA,NA,Marsabit,15,105,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboIladuNA15,KE010045
+NA,Marsabit,Moyale,Golbo,Godhe,NA,NA,Marsabit,21,147,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboGodheNA21,KE010045
+NA,Marsabit,Moyale,Golbo,Qoloba,NA,NA,Marsabit,74,518,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboQolobaNA74,KE010045
+NA,Marsabit,Moyale,Golbo,Funanyata,NA,NA,Marsabit,26,182,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboFunanyataNA26,KE010045
+NA,Marsabit,Moyale,Golbo,Gimbe,NA,NA,Marsabit,9,63,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboGimbeNA9,KE010045
+NA,Marsabit,Moyale,Golbo,Hadesa,NA,NA,Marsabit,11,77,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboHadesaNA11,KE010045
+NA,Marsabit,Moyale,Golbo,Qalaliwe,NA,NA,Marsabit,19,133,NA,NA,NA,NA,NA,NA,NA,NA,CSG (NDMA & WVK),NA,NA,NA,Yes,NDMA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE010,MarsabitMoyaleGolboQalaliweNA19,KE010045
+NA,Isiolo,Garbatulla,Kinna,Rapsu,NA,NA,NA,65,325,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaKinnaRapsuNA65,KE011050
+NA,Isiolo,Garbatulla,Kinna,Kinna South,NA,NA,NA,445,2225,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaKinnaKinna SouthNA445,KE011050
+NA,Isiolo,Garbatulla,Kinna,Kinna North,NA,NA,NA,635,3175,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaKinnaKinna NorthNA635,KE011050
+NA,Isiolo,Garbatulla,Kinna,Kulamawe,NA,NA,NA,120,600,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaKinnaKulamaweNA120,KE011050
+NA,Isiolo,Garbatulla,Kinna,Yaqbarsadhi,NA,NA,NA,125,625,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaKinnaYaqbarsadhiNA125,KE011050
+NA,Isiolo,Garbatulla,Kinna,Barambate,NA,NA,NA,150,750,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaKinnaBarambateNA150,KE011050
+NA,Isiolo,Garbatulla,Kinna,Duse,NA,NA,NA,30,150,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaKinnaDuseNA30,KE011050
+NA,Isiolo,Garbatulla,Garbatulla,Garbatula town,NA,NA,NA,200,1000,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaGarbatullaGarbatula townNA200,KE011050
+NA,Isiolo,Garbatulla,Garbatulla,Boji,NA,NA,NA,181,905,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaGarbatullaBojiNA181,KE011050
+NA,Isiolo,Garbatulla,Garbatulla,Malkadaka,NA,NA,NA,211,1055,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaGarbatullaMalkadakaNA211,KE011050
+NA,Isiolo,Garbatulla,Garbatulla,Gafarsa,NA,NA,NA,520,2600,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaGarbatullaGafarsaNA520,KE011050
+NA,Isiolo,Garbatulla,Garbatulla,Muchuro,NA,NA,NA,81,405,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaGarbatullaMuchuroNA81,KE011050
+NA,Isiolo,Garbatulla,Garbatulla,Kombola,NA,NA,NA,95,475,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaGarbatullaKombolaNA95,KE011050
+NA,Isiolo,Garbatulla,Garbatulla,Belgesh,NA,NA,NA,41,205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaGarbatullaBelgeshNA41,KE011050
+NA,Isiolo,Garbatulla,Sericho,Modogashe town,NA,NA,NA,330,1650,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaSerichoModogashe townNA330,KE011050
+NA,Isiolo,Garbatulla,Sericho,Sericho,NA,NA,NA,211,1055,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaSerichoSerichoNA211,KE011050
+NA,Isiolo,Garbatulla,Sericho,Gubatu,NA,NA,NA,61,305,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaSerichoGubatuNA61,KE011050
+NA,Isiolo,Garbatulla,Sericho,Biliqi,NA,NA,NA,49,245,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaSerichoBiliqiNA49,KE011050
+NA,Isiolo,Garbatulla,Sericho,Badana,NA,NA,NA,163,815,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaSerichoBadanaNA163,KE011050
+NA,Isiolo,Garbatulla,Sericho,Iresaboru,NA,NA,NA,642,3210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaSerichoIresaboruNA642,KE011050
+NA,Isiolo,Garbatulla,Sericho,Mogore,NA,NA,NA,108,540,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaSerichoMogoreNA108,KE011050
+NA,Isiolo,Garbatulla,Sericho,Eldera,NA,NA,NA,38,190,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaSerichoElderaNA38,KE011050
+NA,Isiolo,Garbatulla,Sericho,Quri,NA,NA,NA,17,85,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloGarbatullaSerichoQuriNA17,KE011050
+NA,Isiolo,Merti,Cherab,Korbesa,NA,NA,NA,400,2000,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiCherabKorbesaNA400,KE011049
+NA,Isiolo,Merti,Cherab,Saleti,NA,NA,NA,270,1350,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiCherabSaletiNA270,KE011049
+NA,Isiolo,Merti,Cherab,Biliqi,NA,NA,NA,270,1350,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiCherabBiliqiNA270,KE011049
+NA,Isiolo,Merti,Cherab,Rigg,NA,NA,NA,70,350,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiCherabRiggNA70,KE011049
+NA,Isiolo,Merti,Cherab,Mataarba,NA,NA,NA,300,1500,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiCherabMataarbaNA300,KE011049
+NA,Isiolo,Merti,Cherab,Dadacha Basa,NA,NA,NA,450,2250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiCherabDadacha BasaNA450,KE011049
+NA,Isiolo,Merti,Cherab,Alango,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiCherabAlangoNA50,KE011049
+NA,Isiolo,Merti,Cherab,Dakiye,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiCherabDakiyeNA50,KE011049
+NA,Isiolo,Merti,Cherab,Yamicha,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiCherabYamichaNA50,KE011049
+NA,Isiolo,Merti,Cherab,Urura,NA,NA,NA,40,200,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiCherabUruraNA40,KE011049
+NA,Isiolo,Merti,Cherab,Malkagala,NA,NA,NA,300,1500,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiCherabMalkagalaNA300,KE011049
+NA,Isiolo,Merti,Cherab,Lafey,NA,NA,NA,70,350,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiCherabLafeyNA70,KE011049
+NA,Isiolo,Merti,Cherab,Badana Raro,NA,NA,NA,100,500,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiCherabBadana RaroNA100,KE011049
+NA,Isiolo,Merti,Merti South/North,Manyatta Ganna A,NA,NA,NA,100,500,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthManyatta Ganna ANA100,KE011049
+NA,Isiolo,Merti,Merti South/North,Manyatta Ganna B,NA,NA,NA,102,510,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthManyatta Ganna BNA102,KE011049
+NA,Isiolo,Merti,Merti South/North,Kambi Juu,NA,NA,NA,230,1150,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthKambi JuuNA230,KE011049
+NA,Isiolo,Merti,Merti South/North,Manyatta Duba,NA,NA,NA,60,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthManyatta DubaNA60,KE011049
+NA,Isiolo,Merti,Merti South/North,Manyatta Duba,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthManyatta DubaNA50,KE011049
+NA,Isiolo,Merti,Merti South/North,Manyatta Sekena,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthManyatta SekenaNA50,KE011049
+NA,Isiolo,Merti,Merti South/North,Manyatta Funan,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthManyatta FunanNA50,KE011049
+NA,Isiolo,Merti,Merti South/North,Manyatta Fugicha,NA,NA,NA,40,200,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthManyatta FugichaNA40,KE011049
+NA,Isiolo,Merti,Merti South/North,Towfiq,NA,NA,NA,40,200,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthTowfiqNA40,KE011049
+NA,Isiolo,Merti,Merti South/North,Alhidaya,NA,NA,NA,80,400,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthAlhidayaNA80,KE011049
+NA,Isiolo,Merti,Merti South/North,Towfiq,NA,NA,NA,83,415,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthTowfiqNA83,KE011049
+NA,Isiolo,Merti,Merti South/North,Shambole West,NA,NA,NA,120,600,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthShambole WestNA120,KE011049
+NA,Isiolo,Merti,Merti South/North,Shambole East,NA,NA,NA,80,400,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthShambole EastNA80,KE011049
+NA,Isiolo,Merti,Merti South/North,Shauri Yako,NA,NA,NA,82,410,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthShauri YakoNA82,KE011049
+NA,Isiolo,Merti,Merti South/North,Jamia,NA,NA,NA,97,485,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthJamiaNA97,KE011049
+NA,Isiolo,Merti,Merti South/North,Town B,NA,NA,NA,130,650,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthTown BNA130,KE011049
+NA,Isiolo,Merti,Merti South/North,Quba,NA,NA,NA,35,175,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthQubaNA35,KE011049
+NA,Isiolo,Merti,Merti South/North,Taqwa 1,NA,NA,NA,120,600,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthTaqwa 1NA120,KE011049
+NA,Isiolo,Merti,Merti South/North,Kiwanjani,NA,NA,NA,60,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthKiwanjaniNA60,KE011049
+NA,Isiolo,Merti,Merti South/North,Mulandanur,NA,NA,NA,53,265,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthMulandanurNA53,KE011049
+NA,Isiolo,Merti,Merti South/North,Burhan,NA,NA,NA,45,225,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthBurhanNA45,KE011049
+NA,Isiolo,Merti,Merti South/North,Taqwa 2,NA,NA,NA,80,400,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthTaqwa 2NA80,KE011049
+NA,Isiolo,Merti,Merti South/North,Lakole,NA,NA,NA,40,200,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthLakoleNA40,KE011049
+NA,Isiolo,Merti,Merti South/North,Taqwa 3,NA,NA,NA,70,350,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthTaqwa 3NA70,KE011049
+NA,Isiolo,Merti,Merti South/North,Town A,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthTown ANA50,KE011049
+NA,Isiolo,Merti,Merti South/North,Sakuye 1,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthSakuye 1NA50,KE011049
+NA,Isiolo,Merti,Merti South/North,Sakuye 2,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthSakuye 2NA50,KE011049
+NA,Isiolo,Merti,Merti South/North,Sakuye 3,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiMerti South/NorthSakuye 3NA50,KE011049
+NA,Isiolo,Merti,Chari,Biliqo Marara,NA,NA,NA,100,500,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiChariBiliqo MararaNA100,KE011049
+NA,Isiolo,Merti,Chari,Dima Adho,NA,NA,NA,70,350,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiChariDima AdhoNA70,KE011049
+NA,Isiolo,Merti,Chari,Bisan Billiqo,NA,NA,NA,100,500,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiChariBisan BilliqoNA100,KE011049
+NA,Isiolo,Merti,Chari,Bulesa,NA,NA,NA,100,500,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiChariBulesaNA100,KE011049
+NA,Isiolo,Merti,Chari,Goda,NA,NA,NA,70,350,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiChariGodaNA70,KE011049
+NA,Isiolo,Merti,Chari,Awarsitu,NA,NA,NA,70,350,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiChariAwarsituNA70,KE011049
+NA,Isiolo,Merti,Chari,Kom,NA,NA,NA,300,1500,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloMertiChariKomNA300,KE011049
+NA,Isiolo,Isiolo,Ngaremara,Ngaremara,NA,NA,NA,525,2625,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloNgaremaraNgaremaraNA525,KE011049
+NA,Isiolo,Isiolo,Ngaremara,Zebra,NA,NA,NA,471,2355,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloNgaremaraZebraNA471,KE011049
+NA,Isiolo,Isiolo,Ngaremara,Aragae,NA,NA,NA,251,1255,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloNgaremaraAragaeNA251,KE011049
+NA,Isiolo,Isiolo,Ngaremara,Attan,NA,NA,NA,503,2515,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloNgaremaraAttanNA503,KE011049
+NA,Isiolo,Isiolo,Ngaremara,Nakuprat,NA,NA,NA,591,2955,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloNgaremaraNakupratNA591,KE011049
+NA,Isiolo,Isiolo,Ngaremara,Gotu,NA,NA,NA,151,755,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloNgaremaraGotuNA151,KE011049
+NA,Isiolo,Isiolo,Burat,Nabenyo,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratNabenyoNA50,KE011049
+NA,Isiolo,Isiolo,Burat,Bula Taqwa,NA,NA,NA,80,400,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratBula TaqwaNA80,KE011049
+NA,Isiolo,Isiolo,Burat,Olla Bulle,NA,NA,NA,170,850,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratOlla BulleNA170,KE011049
+NA,Isiolo,Isiolo,Burat,Bulles Dima,NA,NA,NA,60,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratBulles DimaNA60,KE011049
+NA,Isiolo,Isiolo,Burat,Lotiki,NA,NA,NA,60,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratLotikiNA60,KE011049
+NA,Isiolo,Isiolo,Burat,Game,NA,NA,NA,153,765,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratGameNA153,KE011049
+NA,Isiolo,Isiolo,Burat,Kambi Turkana,NA,NA,NA,123,615,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratKambi TurkanaNA123,KE011049
+NA,Isiolo,Isiolo,Burat,Attot,NA,NA,NA,70,350,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratAttotNA70,KE011049
+NA,Isiolo,Isiolo,Burat,Nomads,NA,NA,NA,80,400,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratNomadsNA80,KE011049
+NA,Isiolo,Isiolo,Burat,Maisha Bora,NA,NA,NA,200,1000,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratMaisha BoraNA200,KE011049
+NA,Isiolo,Isiolo,Burat,Elsa,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratElsaNA50,KE011049
+NA,Isiolo,Isiolo,Burat,Kakili,NA,NA,NA,123,615,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratKakiliNA123,KE011049
+NA,Isiolo,Isiolo,Burat,Esmit,NA,NA,NA,80,400,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratEsmitNA80,KE011049
+NA,Isiolo,Isiolo,Burat,Shambani,NA,NA,NA,270,1350,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratShambaniNA270,KE011049
+NA,Isiolo,Isiolo,Burat,Kambi Garba,NA,NA,NA,190,950,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratKambi GarbaNA190,KE011049
+NA,Isiolo,Isiolo,Burat,Kambi Odha,NA,NA,NA,200,1000,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratKambi OdhaNA200,KE011049
+NA,Isiolo,Isiolo,Burat,Arimiet,NA,NA,NA,300,1500,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratArimietNA300,KE011049
+NA,Isiolo,Isiolo,Burat,Alamach,NA,NA,NA,100,500,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratAlamachNA100,KE011049
+NA,Isiolo,Isiolo,Burat,Kilimani/Bula Degaah,NA,NA,NA,125,625,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratKilimani/Bula DegaahNA125,KE011049
+NA,Isiolo,Isiolo,Burat,Akadeli,NA,NA,NA,60,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratAkadeliNA60,KE011049
+NA,Isiolo,Isiolo,Burat,Kambi Sheikh,NA,NA,NA,70,350,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratKambi SheikhNA70,KE011049
+NA,Isiolo,Isiolo,Burat,Leparua,NA,NA,NA,60,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratLeparuaNA60,KE011049
+NA,Isiolo,Isiolo,Burat,Loruko,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBuratLorukoNA50,KE011049
+NA,Isiolo,Isiolo,Wabera,Works,NA,NA,NA,20,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaWorksNA20,KE011049
+NA,Isiolo,Isiolo,Wabera,Baraka village,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaBaraka villageNA50,KE011049
+NA,Isiolo,Isiolo,Wabera,Kambi Ranger,NA,NA,NA,80,400,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaKambi RangerNA80,KE011049
+NA,Isiolo,Isiolo,Wabera,Elboran area,NA,NA,NA,30,150,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaElboran areaNA30,KE011049
+NA,Isiolo,Isiolo,Wabera,Alnusra,NA,NA,NA,30,150,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaAlnusraNA30,KE011049
+NA,Isiolo,Isiolo,Wabera,Chief Camp,NA,NA,NA,80,400,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaChief CampNA80,KE011049
+NA,Isiolo,Isiolo,Wabera,Langata,NA,NA,NA,20,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaLangataNA20,KE011049
+NA,Isiolo,Isiolo,Wabera,Hollywood,NA,NA,NA,20,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaHollywoodNA20,KE011049
+NA,Isiolo,Isiolo,Wabera,Jiireena A&B,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaJiireena A&BNA50,KE011049
+NA,Isiolo,Isiolo,Wabera,Chelcheles B,NA,NA,NA,30,150,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaChelcheles BNA30,KE011049
+NA,Isiolo,Isiolo,Wabera,Acacia,NA,NA,NA,20,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaAcaciaNA20,KE011049
+NA,Isiolo,Isiolo,Wabera,Wabera Airport view,NA,NA,NA,10,50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaWabera Airport viewNA10,KE011049
+NA,Isiolo,Isiolo,Wabera,Soweto,NA,NA,NA,20,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaSowetoNA20,KE011049
+NA,Isiolo,Isiolo,Wabera,Kasarani,NA,NA,NA,10,50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaKasaraniNA10,KE011049
+NA,Isiolo,Isiolo,Wabera,Forest,NA,NA,NA,30,150,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaForestNA30,KE011049
+NA,Isiolo,Isiolo,Wabera,Almusa,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaAlmusaNA50,KE011049
+NA,Isiolo,Isiolo,Wabera,Mtandao,NA,NA,NA,20,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaMtandaoNA20,KE011049
+NA,Isiolo,Isiolo,Wabera,Kayaba,NA,NA,NA,40,200,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaKayabaNA40,KE011049
+NA,Isiolo,Isiolo,Wabera,Hidaya,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaHidayaNA50,KE011049
+NA,Isiolo,Isiolo,Wabera,Kiwanjani,NA,NA,NA,130,650,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaKiwanjaniNA130,KE011049
+NA,Isiolo,Isiolo,Wabera,Kambi Asharaff,NA,NA,NA,125,625,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaKambi AsharaffNA125,KE011049
+NA,Isiolo,Isiolo,Wabera,Anno College,NA,NA,NA,115,575,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaAnno CollegeNA115,KE011049
+NA,Isiolo,Isiolo,Wabera,Osman Dima,NA,NA,NA,125,625,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaOsman DimaNA125,KE011049
+NA,Isiolo,Isiolo,Wabera,Kisima,NA,NA,NA,120,600,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaKisimaNA120,KE011049
+NA,Isiolo,Isiolo,Wabera,Mwangaza,NA,NA,NA,120,600,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaMwangazaNA120,KE011049
+NA,Isiolo,Isiolo,Wabera,Tulu roba,NA,NA,NA,120,600,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloWaberaTulu robaNA120,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Safi Estate,NA,NA,NA,70,350,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaSafi EstateNA70,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Red Cross,NA,NA,NA,40,200,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaRed CrossNA40,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Sweet waters,NA,NA,NA,60,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaSweet watersNA60,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Bula Mbao A,NA,NA,NA,30,150,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaBula Mbao ANA30,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Bula Waso,NA,NA,NA,55,275,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaBula WasoNA55,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Machiuka,NA,NA,NA,35,175,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaMachiukaNA35,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Bula Mbao B,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaBula Mbao BNA50,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Olla Jarole,NA,NA,NA,77,385,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaOlla JaroleNA77,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Mabatini,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaMabatiniNA50,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Rural,NA,NA,NA,40,200,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaRuralNA40,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Bula Kati A,NA,NA,NA,20,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaBula Kati ANA20,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Pepo la Tumaini,NA,NA,NA,25,125,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaPepo la TumainiNA25,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Milimani,NA,NA,NA,20,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaMilimaniNA20,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Kula Mawe,NA,NA,NA,45,225,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaKula MaweNA45,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Soko Mjinga,NA,NA,NA,20,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaSoko MjingaNA20,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Kambi ya Juu,NA,NA,NA,20,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaKambi ya JuuNA20,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Lions,NA,NA,NA,30,150,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaLionsNA30,KE011049
+NA,Isiolo,Isiolo,Bulapesa,Bora Afya,NA,NA,NA,30,150,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloBulapesaBora AfyaNA30,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Ngarendare,NA,NA,NA,84,420,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroNgarendareNA84,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Chumvi/Puli,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroChumvi/PuliNA50,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Noolorooi,NA,NA,NA,84,420,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroNoolorooiNA84,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Kipsing.,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroKipsing.NA50,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Lengwenyi,NA,NA,NA,30,150,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroLengwenyiNA30,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Kalawash,NA,NA,NA,85,425,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroKalawashNA85,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Ltingai,NA,NA,NA,35,175,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroLtingaiNA35,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Rumate/Saabsaab,NA,NA,NA,150,750,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroRumate/SaabsaabNA150,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Lobashereki/Lekiji,NA,NA,NA,50,250,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroLobashereki/LekijiNA50,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Lenguruma,NA,NA,NA,65,325,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroLengurumaNA65,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Naingura,NA,NA,NA,30,150,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroNainguraNA30,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Ndugu Zanguni,NA,NA,NA,30,150,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroNdugu ZanguniNA30,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Parkuruk,NA,NA,NA,20,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroParkurukNA20,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Matundai,NA,NA,NA,30,150,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroMatundaiNA30,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Nkorika,NA,NA,NA,20,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroNkorikaNA20,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Tuale,NA,NA,NA,40,200,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroTualeNA40,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Nantundu/Lpus,NA,NA,NA,30,150,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroNantundu/LpusNA30,KE011049
+NA,Isiolo,Isiolo,Oldonyiro,Ntepes,NA,NA,NA,35,175,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE011,IsioloIsioloOldonyiroNtepesNA35,KE011049
+NA,Busia,Nambale,Nambale Township,Syekunya,Syekunya,Village,Kisumu,56,138,2.0,8,2,2,5,-,-,-,Directorate of Disaster Management,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE040,BusiaNambaleNambale TownshipSyekunyaSyekunya56,KE040227
+NA,Busia,Teso North,Angurai North,Kakurikit,Kakurikit,Village,kisumu,215,950,7.0,21,5,7,9,NA,NA,NA,Directorate of Disaster Management,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE040,BusiaTeso NorthAngurai NorthKakurikitKakurikit215,KE040225
+NA,Busia,Teso North,Malaba Central,Amoni,Amoni,Village,Kisumu,200,1800,1.0,5,1,1,3,NA,NA,NA,Directorate of Disaster Management,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE040,BusiaTeso NorthMalaba CentralAmoniAmoni200,KE040225
+NA,Busia,Teso South,Amukura Central,Kwangamor,NA,NA,Kisumu,160,645,-,NA,NA,NA,NA,NA,NA,NA,Directorate of Disaster Management,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE040,BusiaTeso SouthAmukura CentralKwangamorNA160,KE040226
+NA,Busia,Teso South,Chakol North,Abai,NA,NA,Kisumu,55,200,-,NA,NA,NA,NA,NA,NA,NA,Directorate of Disaster Management,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE040,BusiaTeso SouthChakol NorthAbaiNA55,KE040226
+NA,Busia,Samia,Agenga Nanguba,Mudoma B,NA,NA,Kisumu,30,170,-,NA,NA,NA,NA,NA,NA,NA,Directorate of Disaster Management,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE040,BusiaSamiaAgenga NangubaMudoma BNA30,KE040230
+NA,Busia,Bunyala,Bunyala South,Maduwa,NA,NA,Kisumu,105,685,15.0,63,NA,NA,NA,NA,NA,NA,Directorate of Disaster Management,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,KE040,BusiaBunyalaBunyala SouthMaduwaNA105,KE040231

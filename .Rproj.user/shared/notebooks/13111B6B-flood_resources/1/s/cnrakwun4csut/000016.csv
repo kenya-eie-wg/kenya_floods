@@ -1,0 +1,58 @@
+"0","floods <- read_excel(""./data/Kenya El Nino Flood impacts & Response data - 05Dec2023.xlsx"", 
+           sheet = 1, 
+           skip = 2) %>% 
+  clean_names() %>% 
+  left_join(locations_match %>% 
+              distinct(adm1_en, adm1_pcode), 
+            by = c(""county"" = ""adm1_en"")) %>% 
+  mutate(sub_county = case_when(sub_county == ""Loiyangalani"" ~ ""Loyangalani"", 
+                                sub_county == ""Mutitu"" ~ ""Kitui East"", 
+                                ward %in% c(""Waberi"", ""Galbet"", ""Iftin"") ~ ""Garissa Township"", 
+                                county == ""Garissa"" & ward == ""Townhip"" ~ ""Garissa Township"", 
+                                sub_county == ""Garissa"" ~ ""Garissa Township"",
+                                sub_county == ""Liboi"" ~ ""Dadaab"", 
+                                ward == ""Sankuri"" ~ ""Balambala"", 
+                                sub_county == ""Mwingi Central"" ~ ""Mwingi North"", 
+                                sub_county %in% c(""Bothai"", ""Bura east"") ~ ""Ijara"", 
+                                sub_county == ""Kitui rural"" ~ ""Kitui Rural"", 
+                                TRUE ~ sub_county)) %>% 
+  mutate(id = 
+           paste0(county, sub_county, ward, village_location_town, name_of_site, number_of_affected_households)) %>% 
+  left_join(
+    locations_match %>% 
+      select(adm1_pcode, 
+             adm2_en, 
+             adm2_pcode), 
+    by = c(""adm1_pcode"" = ""adm1_pcode"", 
+           ""sub_county"" = ""adm2_en"")
+  ) %>% 
+ mutate(total_no_of_affected_people = ifelse(is.na(total_no_of_affected_people) & 
+                                                  !is.na(total_no_of_displaced_people), 
+                                                total_no_of_displaced_people, 
+                                                total_no_of_affected_people), 
+         number_of_affected_households = ifelse(is.na(number_of_affected_households) & 
+                                                  !is.na(number_of_displaced_households), 
+                                                number_of_displaced_households, 
+                                                number_of_affected_households)) %>% 
+  filter(county != ""Migori"") %>% 
+  mutate(adm2_pcode = case_when(sub_county == ""Wajir West"" ~ ""KE008036"", 
+                                sub_county == ""Samia"" ~ ""KE040230"", 
+                                sub_county == ""Bunyala"" ~ ""KE040231"", 
+                                TRUE ~ adm2_pcode)) %>% 
+  filter(!is.na(total_no_of_affected_people) | !is.na(total_no_of_displaced_people)) %>% 
+  select(-matches(""x"")) %>% 
+  mutate(assessment_date = round(assessment_date, digits = 0),
+         assessment_date = as.Date(assessment_date, origin = ""1899-12-30""))
+"
+"1","[1m[33mError[39m in `mutate()`:[22m
+[38;5;238m[36mi[38;5;238m In argument: `assessment_date = round(assessment_date, digits = 0)`.[39m
+[1mCaused by error in `round()`:[22m
+[33m![39m non-numeric argument to mathematical function
+Backtrace:
+[90m 1. [39m... %>% ...
+[90m 3. [39m[1m[94mdplyr:::mutate.data.frame([39m[22m...[1m[94m)[39m[22m
+[90m 4. [39mdplyr:::mutate_cols(.data, dplyr_quosures(...), by)
+[90m 6. [39mdplyr:::mutate_col(dots[[i]], data, mask, new_columns)
+[90m 7. [39mmask$eval_all_mutate(quo)
+[90m 8. [39m[1mdplyr[22m (local) eval()
+"

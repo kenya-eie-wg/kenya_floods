@@ -1,6 +1,6 @@
 ---
 title: "Kenya Flood Impact"
-date: '2023-11-28'
+date: '2023-12-06'
 output:
   html_document:
     code_download: yes
@@ -106,15 +106,24 @@ kenya_roads <- sf::st_read("./data/kenya_roads_filtered/kenya_roads_filtered.shp
 
 ```
 
-## Datasets
+## Datasets and updates
 
 #### [OCHA Kenya Floods Dataset, live document](https://docs.google.com/spreadsheets/d/12BclJkUegDVWxx131EvnDCFHXw3ZGZFD/edit#gid=1495683341)
 Contains affected and displaced persons by displacement site. 
 
+[OCHA Kenya Floods dataset with Admin2 Pcodes](https://github.com/kenya-eie-wg/kenya_floods/blob/main/data/floods.csv)
+
+<br>
+
+#### [Reliefweb reports on Flooding](https://reliefweb.int/updates?list=Kenya%3A%20Floods%20-%20Oct%202023%20Updates&advanced-search=%28D51799%29)
+
+<br><br><br>
+
+
 
 ```{r floods}
 
-floods <- read_excel("./data/Kenya El Nino Flood impacts & Response data - 20Nov2023.xlsx", 
+floods <- read_excel("./data/Kenya El Nino Flood impacts & Response data - 05Dec2023.xlsx", 
            sheet = 1, 
            skip = 2) %>% 
   clean_names() %>% 
@@ -150,9 +159,20 @@ floods <- read_excel("./data/Kenya El Nino Flood impacts & Response data - 20Nov
                                                   !is.na(number_of_displaced_households), 
                                                 number_of_displaced_households, 
                                                 number_of_affected_households)) %>% 
-  filter(county != "Migori") 
+  filter(county != "Migori") %>% 
+  mutate(adm2_pcode = case_when(sub_county == "Wajir West" ~ "KE008036", 
+                                sub_county == "Samia" ~ "KE040230", 
+                                sub_county == "Bunyala" ~ "KE040231", 
+                                TRUE ~ adm2_pcode)) %>% 
+  filter(!is.na(total_no_of_affected_people) | !is.na(total_no_of_displaced_people)) %>% 
+  select(-matches("x")) %>% 
+  mutate(assessment_date = round(as.numeric(assessment_date), digits = 0),
+         assessment_date = as.Date(assessment_date, origin = "1899-12-30"))
 
+floods %>% write_csv("./data/floods.csv")
 ```
+
+
 
 
 
@@ -162,6 +182,7 @@ floods <- read_excel("./data/Kenya El Nino Flood impacts & Response data - 20Nov
 
 
 ### Map of persons affected by flooding 
+
 Includes all affected persons, those displaced and those not. 
 
 
@@ -376,6 +397,12 @@ ggsave("./img/flood_percent_affected.png",
 <br><br><br>
 
 ### Other Maps
+
+<br>
+
+#### [DG ECHO Horn of Africa precipitaion and flooding map](https://reliefweb.int/map/somalia/horn-africa-rainy-season-and-floods-emergency-response-coordination-centreercc-dg-echo-daily-map-01122023)
+
+<br>
 
 
 #### [WHO Map of flood risk](https://www.humanitarianlibrary.org/sites/default/files/2013/08/ken-flood.pdf)
