@@ -211,9 +211,9 @@ floods %>%
   ggplot() + 
   geom_sf(size = 0.001, 
           aes(fill = affected_people)) + 
-  geom_sf(aes(geometry = geometry), 
-          data = kenya_roads, 
-          size = .01, alpha = .5, colour = "darkblue") + 
+  # geom_sf(aes(geometry = geometry), 
+  #         data = kenya_roads, 
+  #         size = .01, alpha = .5, colour = "darkblue") + 
   geom_point(aes(x = lon, y = lat), 
                data = all_towns_shape %>% 
                  st_as_sf() %>% 
@@ -223,8 +223,8 @@ floods %>%
                                    filter(adm1_en %in% c("Garissa", "Isiolo", "Kitui", 
                                                          "Machakos", "Makueni", "Mandera", "Wajir"))) %>% 
                  st_make_valid(), 
-               colour = "#f1605d", 
-             pch = 15, alpha = .7, size = 2) +
+               colour = "lightblue", 
+             pch = 15, alpha = .7, size = 1.5) +
   geom_sf_text_repel(aes(label = show_text),
                      size = 2, 
                      seed = 12) +
@@ -235,7 +235,7 @@ floods %>%
   theme_void() + 
   labs(fill = "Affected\npeople", 
        title = "Flood-affected persons, 28 November 2023", 
-       subtitle = "Data from: OCHA Kenya Flood Response Status\nTowns/cities/trading centres in red; network of major roads in blue") + 
+       subtitle = "Data from: OCHA Kenya Flood Response Status\nTowns/cities/trading centres in light blue") + 
   theme(plot.background = element_rect(fill = "white", 
                                        colour = "white"))
 
@@ -281,9 +281,9 @@ floods %>%
   geom_sf(size = 0.001, 
           aes(fill = displaced_people), 
           alpha = .9) + 
-  geom_sf(aes(geometry = geometry), 
-          data = kenya_roads, 
-          size = .01, alpha = .5, colour = "darkblue") + 
+  # geom_sf(aes(geometry = geometry), 
+  #         data = kenya_roads, 
+  #         size = .01, alpha = .5, colour = "darkblue") + 
   geom_point(aes(x = lon, y = lat), 
                data = all_towns_shape %>% 
                  st_as_sf() %>% 
@@ -293,8 +293,8 @@ floods %>%
                                    filter(adm1_en %in% c("Garissa", "Isiolo", "Kitui", 
                                                          "Machakos", "Makueni", "Mandera", "Wajir"))) %>% 
                  st_make_valid(), 
-               colour = "#f1605d", 
-             pch = 15, alpha = .7, size = 2) +
+               colour = "lightblue", 
+             pch = 15, alpha = .7, size = 1.5) +
   geom_sf_text_repel(aes(label = show_text),
                      size = 2, 
                      seed = 12) +
@@ -306,7 +306,7 @@ floods %>%
   
   labs(fill = "Displaced\npeople", 
        title = "Flood-displaced persons, 28 November 2023", 
-       subtitle = "Data from: OCHA Kenya Flood Response Status\nTowns/cities/trading centres in red") + 
+       subtitle = "Data from: OCHA Kenya Flood Response Status\nTowns/cities/trading centres in light blue") + 
   theme(plot.background = element_rect(fill = "white", 
                                        colour = "white"))
 
@@ -354,9 +354,9 @@ floods %>%
   geom_sf(size = 0.001, 
           aes(fill = pc_affected), 
           alpha = .9) + 
-  geom_sf(aes(geometry = geometry), 
-          data = kenya_roads, 
-          size = .01, alpha = .5, colour = "darkblue") + 
+  # geom_sf(aes(geometry = geometry), 
+  #         data = kenya_roads, 
+  #         size = .01, alpha = .5, colour = "darkblue") + 
   geom_point(aes(x = lon, y = lat), 
                data = all_towns_shape %>% 
                  st_as_sf() %>% 
@@ -366,8 +366,8 @@ floods %>%
                                    filter(adm1_en %in% c("Garissa", "Isiolo", "Kitui", 
                                                          "Machakos", "Makueni", "Mandera", "Wajir"))) %>% 
                  st_make_valid(), 
-               colour = "#f1605d", 
-             pch = 15, alpha = .7, size = 2) +
+               colour = "lightblue", 
+             pch = 15, alpha = .7, size = 1.5) +
   geom_sf_text_repel(aes(label = show_text),
                      size = 2, 
                      seed = 12) +
@@ -379,7 +379,7 @@ floods %>%
   
   labs(fill = "Percent\naffected", 
        title = "Percent of population affected by flood, 28 November 2023", 
-       subtitle = "Data from: OCHA Kenya Flood Response Status and Census\nTowns/cities/trading centres in red") + 
+       subtitle = "Data from: OCHA Kenya Flood Response Status and Census\nTowns/cities/trading centres in light blue") + 
   theme(plot.background = element_rect(fill = "white", 
                                        colour = "white"))
 

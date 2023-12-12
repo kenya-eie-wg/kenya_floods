@@ -1,0 +1,54 @@
+"0","floods %>% 
+  group_by(adm2_pcode) %>% 
+  summarise(affected_people = sum(total_no_of_affected_people, na.rm = TRUE), 
+            displaced_people = sum(total_no_of_displaced_people, na.rm = TRUE)) %>% 
+  filter(affected_people > 0) %>% 
+  left_join(locations %>% 
+              select(constituency = adm2_en, adm2_pcode), 
+            by = ""adm2_pcode"") %>% 
+  left_join(adm2_targets %>% 
+              select(adm2_pcode, children_0_17, population, average_household_size), 
+            by = ""adm2_pcode"") %>% 
+  mutate(pc_affected = affected_people / population) %>% 
+  right_join(pcode2_shape, 
+             by = ""adm2_pcode"") %>% 
+  mutate(show_text = ifelse(!is.na(constituency) & 
+                              !is.na(affected_people) & 
+                              affected_people > 0, 
+                            paste0(constituency, ""\n"", 
+                                        comma(affected_people)), 
+                            """")) %>% 
+  st_as_sf() %>% 
+  ggplot() + 
+  geom_sf(size = 0.001, 
+          aes(fill = affected_people)) + 
+  # geom_sf(aes(geometry = geometry), 
+  #         data = kenya_roads, 
+  #         size = .01, alpha = .5, colour = ""darkblue"") + 
+  geom_point(aes(x = lon, y = lat), 
+               data = all_towns_shape %>% 
+                 st_as_sf() %>% 
+                 mutate(lon = sf::st_coordinates(.)[,1],
+                  lat = sf::st_coordinates(.)[,2]) %>% 
+                 st_intersection(., pcode2_shape %>% 
+                                   filter(adm1_en %in% c(""Garissa"", ""Isiolo"", ""Kitui"", 
+                                                         ""Machakos"", ""Makueni"", ""Mandera"", ""Wajir""))) %>% 
+                 st_make_valid(), 
+               colour = ""lightblue"", 
+             pch = 15, alpha = .7, size = 1.5) +
+  geom_sf_text_repel(aes(label = show_text),
+                     size = 2, 
+                     seed = 12) +
+  scale_fill_viridis(option = ""magma"", 
+                     direction = -1, 
+                     labels = comma, 
+                     begin = .2) +
+  theme_void() + 
+  labs(fill = ""Affected\npeople"", 
+       title = ""Flood-affected persons, 28 November 2023"", 
+       subtitle = ""Data from: OCHA Kenya Flood Response Status\nTowns/cities/trading centres in red"") + 
+  theme(plot.background = element_rect(fill = ""white"", 
+                                       colour = ""white""))
+"
+"2","Error in group_by(., adm2_pcode) : object 'floods' not found
+"
